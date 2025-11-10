@@ -1,11 +1,6 @@
 {
   "files.associations": {
-    "*.sub": "ini"
-  }
-}
-
-{
-  "files.associations": {
-    "*.out": "out"
+    "*.sub": "ini",
+    "*.out": "plaintext"
   }
 }
