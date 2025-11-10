@@ -1,4 +1,4 @@
-#sleep.sub -- simple sleep job
+#testhard.sub -- RAM consuming job
 
 executable              = /home/genis/job/bin/python3
 arguments               = /home/genis/tests/test-hard.py
