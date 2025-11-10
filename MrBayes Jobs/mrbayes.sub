@@ -1,0 +1,17 @@
+# mrbayes.sub
+# Submissão de MrBayes via Condor
+
+executable              = /usr/bin/mpirun
+arguments               = --mca plm isolated --oversubscribe -np 8 /usr/local/bin/mb infile.nex
+
+log                     = mrbayes.log
+output                  = mrbayes.out
+error                   = mrbayes.err
+
+should_transfer_files   = NO
+
+request_cpus            = 8
+request_memory          = 6G
+request_disk            = 7G
+
+queue

@@ -1,38 +1,5 @@
-# Cadastro, Configuração e Primeiro acesso
+# MIND.Funga server
 
-## 1. Cadastro
-- Para cadastrar teu usuário no servidor, contacte os administradores.
-
-## 2. Configuração da VPN (faça antes do primeiro acesso)
-- Abra os guias da UFSC para configurar a VPN no teu sistema (exemplo para abrir no host):
-  - Ubuntu: `"$BROWSER" https://servicosti.sistemas.ufsc.br/publico/faq.xhtml?faq=5459`
-  - macOS: `"$BROWSER" https://servicosti.sistemas.ufsc.br/publico/faq.xhtml?faq=5039`
-  - Windows 11: `"$BROWSER" https://servicosti.sistemas.ufsc.br/publico/faq.xhtml?faq=6105`
-
-## 3. Primeiro acesso ao servidor (SSH)
-- Depois de ter teu usuário, senha e VPN ativa, substitua `SEU_USUARIO` pelo teu usuário e conecte:
-```bash
-# Conectar ao servidor (substitua SEU_USUARIO)
-ssh SEU_USUARIO@150.162.33.189
-# Quando solicitado, digite sua senha
-```
-
-## 4. Comandos básicos para testes (no terminal)
-- Comandos úteis para verificar localização, listar e criar pastas:
-
-```bash
-# mostrar diretório atual
-pwd
-
-# listar arquivos e pastas
-ls
-
-# criar uma pasta chamada "filogenia"
-mkdir filogenia
-
-# verificar novamente
-ls
-
-# entrar na pasta criada
-cd filogenia
-```
+## Siga as instruções de uso abaixo
+- 1. Cadastro, Configuração e Primeiro acesso
+- 2. Criando e Submetendo o Primeiro Job
