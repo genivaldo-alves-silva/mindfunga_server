@@ -3,3 +3,9 @@
     "*.sub": "ini"
   }
 }
+
+{
+  "files.associations": {
+    "*.out": "out"
+  }
+}
