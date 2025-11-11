@@ -1,0 +1,16 @@
+#testhard.sub -- RAM consuming job
+
+executable              = /home/genis/job/bin/python3
+arguments               = /home/genis/tests/test-hard.py
+
+log                     = test-h.log
+output                  = test-h.out
+error                   = test-h.err
+
+should_transfer_files   = NO
+
+request_cpus            = 2
+request_memory          = 30G
+request_disk            = 10G
+
+queue
