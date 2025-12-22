@@ -2,7 +2,7 @@
 # Submissão de RaxML-NG via Condor
 
 executable              = /usr/bin/raxml-ng
-arguments               = --threads 15 --force perf_threads -msa infile.fas --workers 15 --bs-trees autoMRE{1000} --seed 12345 --all --prefix result --model GTR+G
+arguments               = --threads 4 --force perf_threads -msa infile.fas --workers 4 --bs-trees autoMRE{1000} --seed 12345 --all --prefix result --model GTR+G
 
 log                     = raxmlng.log
 output                  = raxmlng.out
@@ -10,7 +10,7 @@ error                   = raxmlng.err
 
 should_transfer_files   = NO
 
-request_cpus            = 15
+request_cpus            = 4
 request_memory          = 2G
 request_disk            = 2G
 

@@ -1,0 +1,17 @@
+# raxmlhpc.sub
+# Submissão de RaxMLHPC via Condor
+
+executable              = /usr/local/bin/raxmlHPC
+arguments               = -T 4 -f a -N autoMRE -n result -s infile.fas -c 25 -m GTRGAMMA -p 12345 -x 12345
+
+log                     = raxmlhpc.log
+output                  = raxmlhpc.out
+error                   = raxmlhpc.err
+
+should_transfer_files   = NO
+
+request_cpus            = 4
+request_memory          = 2G
+request_disk            = 2G
+
+queue
