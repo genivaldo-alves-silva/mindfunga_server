@@ -1,7 +1,7 @@
 # raxmlng.sub
 # Submissão de RaxML-NG via Condor
 
-executable              = /usr/bin/raxml-ng
+executable              = /usr/local/bin/raxml-ng
 arguments               = --threads 4 --force perf_threads -msa infile.fas --workers 4 --bs-trees autoMRE{1000} --seed 12345 --all --prefix result --model GTR+G
 
 log                     = raxmlng.log

@@ -1,0 +1,17 @@
+# raxmlng.sub
+# Submissão de IQTree via Condor
+
+executable              = /usr/local/bin/iqtree3
+arguments               = -s infile.fas -B 1000 -alrt 1000 -T 2
+
+log                     = iqtree3.log
+output                  = iqtree3.out
+error                   = iqtree3.err
+
+should_transfer_files   = NO
+
+request_cpus            = 2
+request_memory          = 2G
+request_disk            = 2G
+
+queue
