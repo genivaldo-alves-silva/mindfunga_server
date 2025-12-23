@@ -1,1 +1,2 @@
 - Pensar sobre construção dos scripts e/ou submissão dos jobs quando têm requisições a internet. Há quedas de energia e de internet?
+- Submissão PartitionFinder 2;
