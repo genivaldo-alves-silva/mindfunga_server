@@ -1,8 +1,8 @@
 #nexus
 begin sets;
-    charset part1 = ITS.fas: 1-100 201-300;
-    charset part2 = ITS.fas: 101-200;
-    charset part3 = 28S.fas: 1-800;
-    charset part5 = tef1.fas:CODON, 1-200 400-600 701-900;
-    charset part6 = tef1.fas: 201-399 601-700;
+    charset part1 = microITS.fas: 1-566;
+    charset part2 = micro28s.fas: 1-2026;
+    charset part3 = microRPB2.fas: 1-1059\3;
+    charset part4 = microRPB2.fas: 2-1059\3;
+    charset part5 = microRPB2.fas: 3-1059\3;
 end;
