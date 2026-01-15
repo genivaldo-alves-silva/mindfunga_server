@@ -1,5 +1,6 @@
 # mrbayes.sub
 # Submissão de MrBayes via Condor
+# em log, output e erro, você pode definir os nomes dos arquivos de log
 
 executable              = /usr/bin/mpirun
 arguments               = --mca plm isolated --oversubscribe -np 8 /usr/local/bin/mb infile.nex

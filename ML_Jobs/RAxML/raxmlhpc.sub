@@ -1,5 +1,6 @@
 # raxmlhpc.sub
 # Submissão de RaxMLHPC via Condor
+# em log, output e erro, você pode definir os nomes dos arquivos de log
 
 executable              = /usr/local/bin/raxmlHPC
 arguments               = -T 4 -f a -N autoMRE -n result -s infile.fas -c 25 -m GTRGAMMA -p 12345 -x 12345

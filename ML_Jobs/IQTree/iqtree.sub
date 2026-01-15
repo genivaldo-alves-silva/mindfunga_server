@@ -1,5 +1,6 @@
-# raxmlng.sub
+# iqtree.sub
 # Submissão de IQTree via Condor
+# em log, output e erro, você pode definir os nomes dos arquivos de log
 
 executable              = /usr/local/bin/iqtree3
 arguments               = -s infile.fas -B 1000 -alrt 1000 -T 2

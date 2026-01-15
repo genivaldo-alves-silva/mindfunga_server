@@ -1,0 +1,23 @@
+# beast.sub
+# Submissão de BEAST2 via Condor
+
+# O executável do BEAST que vinculamos em /usr/local/bin/
+executable              = /usr/local/bin/beast
+
+# Argumentos: -threads define o uso de CPUs, seu_arquivo.xml é o input
+# em log, output e erro, você pode definir os nomes dos arquivos de log
+arguments               = -beagle -beagle_SSE -threads 4 -overwrite microtest.xml
+
+log                     = beast.log
+output                  = beast.out
+error                   = beast.err
+
+#should_transfer_files   = YES
+#when_to_transfer_output = ON_EXIT
+
+# Recursos solicitados (devem ser compatíveis com o -threads acima)
+request_cpus            = 4
+request_memory          = 6G
+request_disk            = 7G
+
+queue
