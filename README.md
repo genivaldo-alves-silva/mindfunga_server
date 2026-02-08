@@ -8,4 +8,5 @@
 [5. Submetendo Job Python](/5.%20Submetendo%20Job%20Python.md)  
 [6. Submetendo Job R](/6.%20Submetendo%20Job%20R.md)  
 [7. Manipulação de arquivos](/7.%20Manipulação%20de%20arquivos.md)  
-[8. Submetendo Job em BEAST.md](/8.%20Submetendo%20Job%20em%20BEAST.md)
+[8. Submetendo Job em BEAST](/8.%20Submetendo%20Job%20em%20BEAST.md)
+[9. Submetendo Job em PartitionFinder2](/9.%20Submetendo%20Job%20em%20PartitionFinder2.md)
