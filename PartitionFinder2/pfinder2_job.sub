@@ -1,0 +1,16 @@
+executable              = /opt/miniconda3/envs/pfinder2/bin/python2
+arguments               = /opt/partitionfinder-2.1.1/PartitionFinder.py $(folder) --force-restart -p 8
+
+initialdir              = $(folder)
+
+log                     = pfinder2.log
+output                  = pfinder2.out
+error                   = pfinder2.err
+
+should_transfer_files   = NO
+
+request_cpus            = 8
+request_memory          = 30G
+request_disk            = 5G
+
+queue
