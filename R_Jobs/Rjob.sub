@@ -1,0 +1,19 @@
+# job_r.sub -- Job consumindo RAM em R
+
+# 1. Troque para o binário do Rscript
+executable              = /opt/miniconda3/envs/edna_env/bin/Rscript
+# 2. Aponte para o seu script R
+arguments               = /home/user/Rscript.R
+
+log                     = job_r.log
+output                  = job_r.out
+error                   = job_r.err
+
+should_transfer_files   = NO
+
+# Mantenha as requisições de hardware conforme a necessidade do R
+request_cpus            = 2
+request_memory          = 30G
+request_disk            = 10G
+
+queue
