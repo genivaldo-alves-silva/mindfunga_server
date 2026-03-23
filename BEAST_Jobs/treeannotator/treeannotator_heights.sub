@@ -1,0 +1,15 @@
+# treeannotator.sub
+# Submissão de treeannotator via Condor
+
+executable = /usr/local/bin/treeannotator
+
+arguments = -burnin 10 -limit 0.5 -height $(height) microtest-its.trees output_$(height).tree
+
+log    = treeannotator_$(height).log
+output = treeannotator_$(height).out
+error  = treeannotator_$(height).err
+
+request_cpus   = 1
+request_memory = 20G
+
+queue height in (keep, median, mean, CA)
